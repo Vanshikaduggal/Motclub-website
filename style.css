@@ -66,21 +66,11 @@ nav a{
     color: #ffffff;
     font-size: 1.5rem;
     align-items: baseline;
-    animation: slideRight 1s ease forwards;
-    animation-delay: calc(.2s * var(--i));
 }
-
-@keyframes slideRight{
-    0%{
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0px);
-        opacity: 1;
-    }
+#insta{
+    margin-left: 20px;
 }
-.Info-box{
+x.Info-box{
     opacity: 0.7;
     width: 506px;
     height: 786px;
@@ -998,6 +988,9 @@ footer p{
         flex-direction: column;
         margin: unset;
     }
+    #insta{
+        margin-top: 20px;
+    }
     .container-7{
         background-size: cover;
         background-position: fixed;
@@ -1187,6 +1180,7 @@ footer p{
     .bt-1:hover{
         color: #ce0000;
         background-color: aliceblue;
+        font-size: 14px;
     }
     .bt-2{
         margin: unset;
@@ -1199,6 +1193,7 @@ footer p{
     .bt-2:hover{
         color: #ce0000;
         background-color: aliceblue;
+        font-size: 14px;
     }
     .bt-3{
         margin: unset;
@@ -1211,6 +1206,7 @@ footer p{
     .bt-3:hover{
         color: #ce0000;
         background-color: aliceblue;
+        font-size: 14px;
     }
     .bt-4{
         margin: unset;
@@ -1223,6 +1219,7 @@ footer p{
     .bt-4:hover{
         color: #ce0000;
         background-color: aliceblue;
+        font-size: 14px;
     }
     .container-4{
         background-position: fixed;
